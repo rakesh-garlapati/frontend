@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body style="width: 100%;">
+    <form>
+      <header>
+        <div>
+          <img
+            src="https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/05/Salesforce-logo.jpg"
+            width="250"
+            height="250"
+          />
+        </div>
+      </header>
+      <br /><br /><hr /><br />
+      
+      <label for="first">FirstName:</label><br />
+      <input
+        id="first"
+        name="firstname"
+        placeholder="enter firstname"
+        type="text"
+      /><br />
+      <hr>
+      <br />
+
+      <label for="last">LastName:</label><br />
+      <input
+        id="last"
+        name="lastname"
+        placeholder="enter lastname"
+        type="text"
+      /><br />
+      <hr>
+      <br />
+
+      <label for="email">Email:</label><br />
+      <input
+        id="email"
+        name="email"
+        placeholder="enter email"
+        type="email"
+      /><br />
+      <hr>
+      <br />
+      <label for="phone">Phone:</label><br />
+      <input
+        id="phone"
+        name="phone"
+        placeholder="enter phone"
+        type="tel"
+      /><br />
+      <hr>
+      <br />
+      <label for="dob">DOB:</label><br />
+      <input id="dob" name="dob" placeholder="enter dob" type="date" /><br />
+      <br />
+
+      <label for="course">Course:</label><br />
+      <select id="course">
+        <option>-none-</option>
+        <optgroup label="FrontEnd">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+        </optgroup>
+        <optgroup label="BackEnd">
+          <option>JAVA</option>
+          <option>.net</option>
+          <option>Phyton</option>
+        </optgroup>
+        <optgroup label="Clooud">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+        </optgroup>
+      </select>
+
+      <br />
+      <hr><br />
+      <label>Gender</label>
+      <br />
+      <input type="radio" id="gen" name="gender" id="male" /><label for="male"
+        >Male</label
+      >
+      <input type="radio" id="gen" name="gender" id="female" /><label
+        for="female"
+        >Female</label
+      >
+      <input type="radio" id="gen" name="gender" id="other" /><label for="other"
+        >Other</label
+      >
+      <br />
+      <hr>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
