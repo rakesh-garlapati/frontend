@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crickbuzz</title>
+    <link rel="shortcut icon"
+    type="image/x-icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAdVBMVEXiN0T////jOkfiNULhLTzhJTXiMT/hKzrhKDjgGi3obXTgHjD75+j++/vunqLjQk3309X87e7nZm7gEij64uPfAB7skJXrhIrkUFr98vP0wcT1x8n2ztDvo6fytLf42tvmW2Tpdn3kSVTtl5vxrLDqfYTeABUSA8UYAAAEgklEQVRoge2beXPzJhCHQcslocO65cg6LFv5/h+xiEW27Mzb9o++SaeFyWQkjn2WH+xCnDGhaRZ8d8lSStIQyHcXCFOSfT/WgDMS/ACWGKrneq7neq7neq7neq7neq7neq7neq7neq7neu7/lfvrjwJ/IxdU3f0S/Nu4rFyGZOTfzRXtRClt5LdwAXZdoUsMlhbi73DhpWCVkIrBoYM1BJJjJQilXKtQoRZEhhJsh+uGpVIIZ0fqUKuDF0dul+2fvGfZEpgBoJeoua2zYlszk5B1BRDgSzusm2MMovTWbVpKPjd9FcfxqTGuQbaMlpvNc2ftdO3Yf9xmDl+5Yk7yPMaS50lknA8+znb4VJj9wYeqyhMaCDlsGk4KVFRZMRmBdaJ7iRfQH483OmrCyJjgS0/EFy5r6bFEQhXnx9tVEmcs4BdXFboBJyXm48i8LJ9e0Eax7mnnvC/LkyvTF27Bi+NrsE+i7F1NurfnAmT14vLnE0QLuSSHtg/+zj2KQ+mFBcfudOShnWfyUGXIdy4AH2icFgGsdkxaHwZ2/MUn6v6d8eSG07a6FdIm7twY6gaNExTPrLBb9DOtUPGKASxRLZmActgq7qq42ZamKAqF4096Rsupet/PknNet86U6Fx3UOjvImJ0+Po5OslC7NMb6QQvy2DJ0MlBaeQuJo6kHZZIEY5HoV/zhkbsORAKR0aMoL60W3CaqXYVOWO4wndOeHabElPOtk/LnFihcahwy0TcxPsv8zWhcrVaJIvYaSbs3dOCBsyG1CjAKtnqHnh72EiUzgLX5FyTnbYyIpuHOm9cVSC2M2kC1c1N9uEn2z9Y3eQgsBsq0Sai0SNtLSZTf5msAQml7TKVRkFUtxN77/EL18VZUqgtI1puLAEyayN2wyIBuEGM3yGGVGgD5bSUYalt3xoya+lDP6IkeOi2svd8RRB7rc3+UhiRRlUZoZufaMBk6Gj3O0Tfym26CTOZiNmmvBYonNm64jFf5wtlb3EEHOtPt2EY7kOJ6s4hx9zT1biqNZG49xojhd2qfb15VJm1dKF2CQWuSVPqGXBVh7K824f3vAE6Pm6NS437+XxHXK8lyl0SjgYKAbgud8tNspA7SUbOXMyPkzkZ0ODo0hx5y5P8JVvRlGfHdHXWAg/UXpMS10mCC5HVBes4nqntM6hnqq9AX452W0X+lFsIdTgmzplwq2piFfeqEdyF0SIeCbi3jEaKR2q/cHFMz2lI3rk9PZbFxE/zGByY6MNJpdLdJJJ6F7wmCtNycq+t8A0j2h1IibnosHlfwXx9Xrd2rri216iwJbqu7Xbqq+U+xfH0UWyntZijrSwmruyDucG4KnPsy+U23tuMB2trijnpgQynaerbYJOVQXOq8urSBIp84ZrbBGMCC2MSbzGck0BpPKrBtm6XB9tlqzS/8cFcWTU3Y4BJU+xFh2tpftwlR2lizlF1vNT+xb0O/qF/wsO7of/m3yme67me67me67me67me67me67me67me67me67me67n/Ru5Pfd/qp75f9kPfp/sD6UdEoetr3ikAAAAASUVORK5CYII=">
+        
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <table style="width: 100%; border: 1px solid black;">
+    <tr style="width: 100%;">
+        <th style="width: 8%;">
+            <img src="https://www.shutterstock.com/image-vector/cricbuzz-cricket-news-website-logo-600nw-2323256191.jpg" height="50">
+        </th>
+        <th style="width: 6%;">
+            <button>Live Scores</button>
+
+        </th>
+        <th style="width: 6%;">
+            <button>Schedule</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>Archives</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>News</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>Series</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>Teams</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>Videos</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>Rakings</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <button>More</button>
+            
+        </th>
+        <th style="width: 6%;">
+            <input type="search">
+        </th>
+        <th style="width: 2%;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </th>
+        <th style="width: 2%;">
+            <i class="fa-solid fa-user"></i>
+        </th>
+    </tr>
+   </table>
+   <table style="width: 100%; border: 1px solid black;">
+    <tr style="width: 100%;">
+        <th style="width: 20%;"><button>Matches</button></th>
+        <th style="width: 20%;"><button>IND VS AUS</button></th>
+        <th style="width: 20%;"> <button>Nz VS BAN</button></th>
+        <th style="width: 20%;"><button>IND VS SA</button></th>
+        <th style="width: 20%;"><button>IND A VS IND B</button></th>
+        <th style="width: 20%;"> <button>Close</button></th>
+
+    </tr>
+   </table>
+   <table style="width: 100%;">
+    <tr style="width: 100%;">
+        <th style="width: 20%;">
+            <div style="width: 100%; border: 1px solid black;">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <th style="width: 33%;"> Only Test</th>
+                        <th style="width: 33%;">Austral</th>
+                        <th style="width: 33%;"><button>Test</button></th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th style="width: 50%;">
+                            AUS
+                        </th>
+                        <th style="width: 50%;">
+                            219
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;" colspan="3">
+                        <th>
+                            Day 2:Stumps
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th> 
+                            <button>SCHEDULE</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </th>
+        <th style="width: 20%;">
+            <div style="width: 100%; border: 1px solid black;">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <th style="width: 33%;"> Only Test</th>
+                        <th style="width: 33%;">Austral</th>
+                        <th style="width: 33%;"><button>Test</button></th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th style="width: 50%;">
+                            AUS
+                        </th>
+                        <th style="width: 50%;">
+                            219
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;" colspan="3">
+                        <th>
+                            Day 2:Stumps
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th> 
+                            <button>SCHEDULE</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </th>
+        <th style="width: 20%;">
+            <div style="width: 100%; border: 1px solid black;">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <th style="width: 33%;"> Only Test</th>
+                        <th style="width: 33%;">Austral</th>
+                        <th style="width: 33%;"><button>Test</button></th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th style="width: 50%;">
+                            AUS
+                        </th>
+                        <th style="width: 50%;">
+                            219
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;" colspan="3">
+                        <th>
+                            Day 2:Stumps
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th> 
+                            <button>SCHEDULE</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </th>
+        <th style="width: 20%;">
+            <div style="width: 100%; border: 1px solid black;">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <th style="width: 33%;"> Only Test</th>
+                        <th style="width: 33%;">Austral</th>
+                        <th style="width: 33%;"><button>Test</button></th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th style="width: 50%;">
+                            AUS
+                        </th>
+                        <th style="width: 50%;">
+                            219
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;" colspan="3">
+                        <th>
+                            Day 2:Stumps
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th> 
+                            <button>SCHEDULE</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </th>
+        <th style="width: 20%;">
+            <div style="width: 100%; border: 1px solid black;">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <th style="width: 33%;"> Only Test</th>
+                        <th style="width: 33%;">Austral</th>
+                        <th style="width: 33%;"><button>Test</button></th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th style="width: 50%;">
+                            AUS
+                        </th>
+                        <th style="width: 50%;">
+                            219
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;" colspan="3">
+                        <th>
+                            Day 2:Stumps
+                        </th>
+                    </tr>
+                    <tr style="width: 33%;">
+                        <th> 
+                            <button>SCHEDULE</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </th>
+        <th>
+            
+        </th>
+        <th>
+            
+        </th>
+        <th>
+            
+        </th>
+    </tr>
+   </table>
+   <table >
+    <tr style="width: 100%;">
+        <th style="width: 10%;">
+            <a href=""> IPL Auction Tracker </a>
+
+        </th>
+        <th style="width: 10%;">
+            <a href=""> Live</a>
+
+            
+        </th>
+        <th style="width: 10%;">
+            <a href=""> Completed </a>
+            
+        </th>
+        <th style="width: 10%;">
+            <a href="">Player</a>
+            
+        </th>
+    </tr>
+   </table>
+
+   <table style="width: 100%;  border: 1px solid black;">
+    <tr style="width: 20%; ">
+        <th  style="width: 20%; ">
+            <!--left-->
+            <h2>Latest news</h2>
+            <table>
+                
+              
+                    <div style="border: 1px solid black;">
+                    <a href="">Kohli leaves SA due to family emergency; Gaikwad ruled out of series</a>
+                    </div>
+
+                <div style="border: 1px solid black;">
+                  <a href=""> Dean Elgar to retire from international cricket after India Tests</a> 
+
+                </div>
+                <div style="border: 1px solid black;">
+                 <a href=""> Williamson, Jamieson withdrawn from Bangladesh T20Is on precautionary grounds</a>
+
+                </div>
+                <div style="border: 1px solid black;">
+                    <a href="">  Khawaja to take up armband issue with ICC; says it was for 'personal bereavement'
+                    </a>  
+                </div>
+                <div style="border: 1px solid black;">
+                    <a href="">   Vastrakar's 'robotic' length perfect for Test Cricket - McGrath
+                    </a> 
+                </div>
+            </table>
+
+        </th style="width: 60%; ">
+        <th>
+            <h2>Latest news</h2>
+            <table>
+                
+                <tr>
+                    <img src="https://static.cricbuzz.com/a/img/v1/420x235/i1/c366942/kohli-leaves-sa-due-to-family.jpg" width="200" height="200">
+                 
+                 <br>   Kohli leaves SA due to family emergency; Gaikwad ruled out of series
+
+                </tr><br>
+                <tr>
+                    <img src="https://static.cricbuzz.com/a/img/v1/420x235/i1/c367020/elgars-march-of-pomp-and-circ.jpg" width="200" height="200">
+                   <br> Dean Elgar to retire from international cricket after India Tests
+
+                </tr><br>
+                <tr>
+                    <img src="https://static.cricbuzz.com/a/img/v1/420x235/i1/c366964/deepti-half-century-drives-ind.jpg" width="200" height="100">
+
+
+                   <br>
+                    Williamson, Jamieson withdrawn from Bangladesh T20Is on precautionary grounds
+
+                </tr><br>
+                <tr>
+                    Khawaja to take up armband issue with ICC; says it was for 'personal bereavement'
+
+                </tr><br>
+                <tr>
+                    Vastrakar's 'robotic' length perfect for Test Cricket - McGrath
+
+                </tr><br>
+            </table>
+            
+        </th>
+        <th style="width: 20%; ">
+            <h2>Latest news</h2>
+            <table>
+                
+                <tr>
+                    Kohli leaves SA due to family emergency; Gaikwad ruled out of series
+
+                </tr><br>
+                <tr>
+                    Dean Elgar to retire from international cricket after India Tests
+
+                </tr><br>
+                <tr>
+                    Williamson, Jamieson withdrawn from Bangladesh T20Is on precautionary grounds
+
+                </tr><br>
+                <tr>
+                    Khawaja to take up armband issue with ICC; says it was for 'personal bereavement'
+
+                </tr><br>
+                <tr>
+                    Vastrakar's 'robotic' length perfect for Test Cricket - McGrath
+
+                </tr><br>
+            </table>
+            
+        </th>
+    </tr>
+   </table>
+
+</body>
+
+</html>
