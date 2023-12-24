@@ -1,0 +1,37 @@
+/* p{
+    background-color: #e5f6f5;
+} */
+.heading{
+   
+  color:  #0f7d0b;
+  font-style: oblique;
+  text-align:center;
+}
+body{
+    background-color: #c0fabe;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPDxzYAtrBrJxAOIKoBkYPfZQok5r3IMQCUQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.headingforsecond{
+    color:  #0f7d0b;
+    text-align: center;
+    
+}
+p{
+    color: #0cc706;
+
+}
+#heading5{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.middlediv{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
