@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(250, 213, 44);
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    height: 100vh; /* Set the body to full viewport height */
+    justify-content: center; /* Center the .outer horizontally */
+    align-items: center; /* Center the .outer vertically */
+}
+.outer{
+    display: flex;
+
+}
+.inner{
+    border: 1px solid black;
+    width:250px;
+    height:300px;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    
+}
+img{
+    width: 220px;
+    
+}
+.learning{
+    font-weight: bold;
+    background-color: rgb(250, 213, 44);;
+    width: fit-content;
+    border-radius: 5;
+    
+}

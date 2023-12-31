@@ -1,0 +1,23 @@
+.facebooklogo img{
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    
+}
+.box{
+    border: 1px solid rgb(75, 75, 75);
+    height: 300px;
+    width: 300px;
+}
+.log{
+    font-family: inherit;
+}
+input{
+    width: 200px;
+    font-size: 18px;
+    padding: 1px;
+    border: 0;
+    
+
+
+}
