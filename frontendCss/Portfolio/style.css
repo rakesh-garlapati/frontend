@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 217, 255);
+
+}
+main{
+    padding: 0 150px;
+}
+.Header-links{
+    display: flex;
+    gap: 100px;
+    list-style-type:none;
+    padding:0 20px;
+    padding-top: 16px;
+
+}
+.Header-links li a{
+    text-decoration: none;
+    color: rgb(255, 0, 208);
+    font-size: 20px;
+}
+#section-1{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+.main-section1 > h1{
+    color: rgb(255, 0, 208);
+    font-size: 80px;
+}
+.main-section1 > .salesforce{
+    color: rgb(255, 0, 208);
+    font-size: 30px;
+} 
+.main-section1 > p{
+    color: rgb(255, 0, 208);
+    font-size: 10pxpx;
+} 
+.main-section1 > button{
+    color: rgb(255, 0, 208);
+    background-color: rgb(255, 217, 255); 
+    border: 0px;
+    padding: 15px 60px;
+    font-size: 18px;
+    border-radius: 10px;
+} 
+ /* section 2 css */
+#section-2{
+    color: rgb(255, 0, 208);
+    padding-top: 150px;
+
+}
+#section-2 > h2{
+   text-align: center;
+   font-size: 30px;
+   text-decoration: underline;
+
+}
+#section-2 > p{
+   text-align: justify;
+   line-height: 25px;
+   font-size: 16px;
+ 
+ }
+ /* Section-3 */
+#section-3{
+    color: rgb(255, 0, 208);
+    padding-top: 150px;
+
+}
+#section-3> h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.projects > div{
+    text-align: center;
+}
+.projects > div > p{
+    text-align: justify;
+}
+.projects > div{
+    border: 1px solid rgb(255, 0, 208);
+    border-radius: 10px;
+    padding: 0 5px;
+    box-shadow: 5px 5px;
+    margin-right: 5px;
+    
+}
+/* Section-4 */
+
+#section-4{
+    color: rgb(255, 0, 208);
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#section-4 h2{
+    text-decoration:underline;
+}
+#section-4 input{
+    border: 1px solid rgb(255, 0, 208);
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+#section-4 label{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#section-4 textarea{
+    border: 1px solid rgb(255, 0, 208);
+}
+
+#section-4 button{
+    color: rgb(255, 0, 208);
+    background-color: rgb(255, 217, 255); 
+    border: 0px;
+    padding: 15px 60px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    border: 1px solid rgb(255, 0, 208);
+    background-color: rgb(255, 0, 208);
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content:end;
+    align-items:end;
+
+    
+}
+footer button{
+    color: rgb(255, 0, 208);
+    background-color: rgb(255, 217, 255); 
+    border-radius: 50px;
+    border: 1px solid rgb(255, 0, 208);
+    font-size: 18px;
+
+}
+footer button a{
+    text-decoration: none;
+    color: rgb(255, 0, 208);
+
+}
