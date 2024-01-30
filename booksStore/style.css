@@ -1,0 +1,72 @@
+#mainDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin-top: 50px;
+}
+.headersection{
+    text-align: center;
+    
+
+}
+i{
+   color: rgb(236, 155, 34);
+}
+.headersection h1{
+    font-size: 50px;
+
+}
+#bookstorehead{
+    /* color: rgb(236, 155, 34); */
+    color: black;
+    
+
+}
+.headersection button{
+    /* background-color: black; */
+    color: black;
+    background-color: rgb(236, 155, 34);
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    width: 500px;
+    /* font-weight: bold; */
+    font-size: larger;
+}
+/* .book{
+    height: 250px;
+    width: 250px;
+} */
+.book{
+    border: 2px solid rgb(236, 155, 34);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(236, 155, 34);
+
+
+}
+.img{
+    height: 250px;
+    width: 250px;
+   
+}
+.toggle{
+    text-align: right;
+}
+.toggle i{
+    text-align: right;
+    font-size: 36px;
+}
+#pagnation1{
+    display: flex;
+    justify-content: center;
+margin-top: 25px;
+
+}
+#pagnationitems ul li a{
+    color: rgb(236, 155, 36);
+
+}
